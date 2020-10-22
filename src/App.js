@@ -30,13 +30,13 @@ class App extends Component {
 
   // Delete Todo
   deTodo = (id) => {
-    axios.delete(`http://jsonplaceholder.typicode.com/todos/${id}`)
+    axios.delete(`https://jsonplaceholder.typicode.com/todos/${id}`)
       .then(rest => this.setState({ todos: [...this.state.todos.filter(todo => todo.id !== id)]}));
   }
 
   // Add Todo
   addTodo = (title) => {
-    axios.post('http://jsonplaceholder.typicode.com/todos', {
+    axios.post('https://jsonplaceholder.typicode.com/todos', {
       title,
       completed: false
     })
