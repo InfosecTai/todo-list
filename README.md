@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).P
+This todo app is built using tutorial created by Brad.  
 
 ## Available Scripts
 
